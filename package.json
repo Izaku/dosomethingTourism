@@ -1,0 +1,12 @@
+{
+	"name": "dosomethinginc-Tourism",
+	"version": "1.0.0",
+	"scripts": {
+		"starts": "node server.js"
+	},
+	"dependencies": {
+		"express": "4.13.3"
+	},
+	"author": "izaku",
+	"license": "ISC"
+}
