@@ -13,11 +13,11 @@
   "scripts": {
     "build": "ember build",
     "lint:js": "eslint ./*.js app blueprints config lib server tests",
-    "start": ["ember serve", "node server.js"],
+    "start": "node server.js",
     "test": "ember test"
   },
   "devDependencies": {
-    "express" : "4.13.3",
+    "express": "4.13.3",
     "broccoli-asset-rev": "^2.4.5",
     "ember-ajax": "^3.0.0",
     "ember-cli": "~3.1.4",
@@ -46,4 +46,3 @@
     "node": "^4.5 || 6.* || >= 7.*"
   }
 }
-
